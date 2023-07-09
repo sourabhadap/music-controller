@@ -1,12 +1,23 @@
 
+# Django setup
+```bash
+
+python3 -m venv venv
+
+source venv/bin/activate
+
 django-admin startproject musicapp
 python manage.py startapp api
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
 
+```
+
+
 # React setup
 
+```bash
 npm init -y
 npm i webpack webpack-cli --save-dev
 npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
@@ -16,3 +27,5 @@ npm install react-router-dom
 npm install @material-ui/icons
 Copy babel.config.js & webpack.config.js
 Create src/index.js
+
+```
