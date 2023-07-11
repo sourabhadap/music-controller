@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import {render} from 'react-dom';
+import HomePage from './HomePage';
+import RoomJoinPage from './RoomJoinPage';
+import CreateRoomPage from './CreateRoomPage';
 
 
 export default class App extends Component {
@@ -10,7 +13,9 @@ export default class App extends Component {
 
     render() {
         return (
-            <h1>Testing React code</h1>
+            <div>
+                <HomePage/>
+            </div>
         );
     }
 }
